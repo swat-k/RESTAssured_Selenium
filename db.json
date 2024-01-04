@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "David",
+      "age": 30,
+      "d_id": 2
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "age": 40,
+      "d_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Rachel",
+      "age": 35,
+      "d_id": 1
+    },
+    {
+       "id": 4,
+      "name": "Ross",  
+      "age": 39,
+      "d_id": 1
+    },
+    {
+        "id": 5,
+      "name": "Arya",
+      "age": 32,
+      "d_id": 2
+    }
+  ],
+  "department": [
+    {
+      "d_id": 1,
+      "d_name": "Physics"
+    },
+    {
+      "d_id": 2,
+      "d_name": "Chemistry"
+    }
+  ]
+}

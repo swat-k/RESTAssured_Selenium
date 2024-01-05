@@ -5,6 +5,7 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.*;
 import org.testng.annotations.Test;
 
+
 public class JsonValidator {
 
 	@Test

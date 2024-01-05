@@ -1,0 +1,194 @@
+{"$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "result": {
+      "type": "object",
+      "properties": {
+        "statements": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "TRANSACTION_ID": {
+                  "type": "string"
+                },
+                "ACCOUNT_NO": {
+                  "type": "string"
+                },
+                "DATE_OF_TRANSACTION": {
+                  "type": "string"
+                },
+                "AMOUNT": {
+                  "type": "string"
+                },
+                "TRANSACTION_TYPE": {
+                  "type": "string"
+                },
+                "DESCRIPTION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "TRANSACTION_ID",
+                "ACCOUNT_NO",
+                "DATE_OF_TRANSACTION",
+                "AMOUNT",
+                "TRANSACTION_TYPE",
+                "DESCRIPTION"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "TRANSACTION_ID": {
+                  "type": "string"
+                },
+                "ACCOUNT_NO": {
+                  "type": "string"
+                },
+                "DATE_OF_TRANSACTION": {
+                  "type": "string"
+                },
+                "AMOUNT": {
+                  "type": "string"
+                },
+                "TRANSACTION_TYPE": {
+                  "type": "string"
+                },
+                "DESCRIPTION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "TRANSACTION_ID",
+                "ACCOUNT_NO",
+                "DATE_OF_TRANSACTION",
+                "AMOUNT",
+                "TRANSACTION_TYPE",
+                "DESCRIPTION"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "TRANSACTION_ID": {
+                  "type": "string"
+                },
+                "ACCOUNT_NO": {
+                  "type": "string"
+                },
+                "DATE_OF_TRANSACTION": {
+                  "type": "string"
+                },
+                "AMOUNT": {
+                  "type": "string"
+                },
+                "TRANSACTION_TYPE": {
+                  "type": "string"
+                },
+                "DESCRIPTION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "TRANSACTION_ID",
+                "ACCOUNT_NO",
+                "DATE_OF_TRANSACTION",
+                "AMOUNT",
+                "TRANSACTION_TYPE",
+                "DESCRIPTION"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "TRANSACTION_ID": {
+                  "type": "string"
+                },
+                "ACCOUNT_NO": {
+                  "type": "string"
+                },
+                "DATE_OF_TRANSACTION": {
+                  "type": "string"
+                },
+                "AMOUNT": {
+                  "type": "string"
+                },
+                "TRANSACTION_TYPE": {
+                  "type": "string"
+                },
+                "DESCRIPTION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "TRANSACTION_ID",
+                "ACCOUNT_NO",
+                "DATE_OF_TRANSACTION",
+                "AMOUNT",
+                "TRANSACTION_TYPE",
+                "DESCRIPTION"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "TRANSACTION_ID": {
+                  "type": "string"
+                },
+                "ACCOUNT_NO": {
+                  "type": "string"
+                },
+                "DATE_OF_TRANSACTION": {
+                  "type": "string"
+                },
+                "AMOUNT": {
+                  "type": "string"
+                },
+                "TRANSACTION_TYPE": {
+                  "type": "string"
+                },
+                "DESCRIPTION": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "TRANSACTION_ID",
+                "ACCOUNT_NO",
+                "DATE_OF_TRANSACTION",
+                "AMOUNT",
+                "TRANSACTION_TYPE",
+                "DESCRIPTION"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "statements"
+      ]
+    },
+    "message": {
+      "type": "object",
+      "properties": {
+        "ErrorCode:": {
+          "type": "integer"
+        },
+        "ErrorMsg:": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "ErrorCode:",
+        "ErrorMsg:"
+      ]
+    }
+  },
+  "required": [
+    "result:",
+    "message"
+  ]
+}
+
+
